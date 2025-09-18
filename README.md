@@ -146,6 +146,7 @@ EMAIL_PASS=your_app_password
 
    ```bash
    npm run dev
+   node app.js
    ```
 
 ---
