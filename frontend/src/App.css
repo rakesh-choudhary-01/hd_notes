@@ -1,0 +1,128 @@
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+}
+
+.app-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+}
+
+
+/* for make the app responsive */
+
+@media (max-width: 767px) {
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 14%;
+        padding-right: 14%;
+        margin-bottom: "7px";
+    }
+}
+
+@media (max-width: 767px) {
+    .headding-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 14%;
+        padding-right: 14%;
+    }
+}
+
+@media (min-width: 767px) {
+    .wrapper-div {
+        padding-top: 59px;
+        padding-left: 14%;
+        padding-right: 14%;
+    }
+}
+
+.checkbox-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+
+/* calendar styles */
+
+.react-datepicker__header {
+    background-color: #b7cbdc;
+}
+
+
+/* Selected day background */
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+    background-color: #3594f2 !important;
+    color: white !important;
+}
+
+
+/* Today highlight border */
+
+.react-datepicker__day--today {
+    border: 1px solid #3594f2;
+}
+
+
+/* Dashboard styling */
+
+@media screen and (max-width: 768px) {
+    .custom-navbar.navbar {
+        flex-direction: column !important;
+        text-align: center;
+    }
+    .hero-section {
+        padding: 20px 10px !important;
+    }
+    .nav-link {
+        display: block !important;
+        margin: 5px 0 !important;
+    }
+}
+
+
+/* Remove success tick and invalid cross */
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+    background-image: none !important;
+    /* Optional: restore default padding/border if needed */
+}
+
+
+/* Also handle invalid state to remove red icon */
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+    background-image: none !important;
+}
+
+
+/* For small input-group variants (prevents layout shift) */
+
+.form-control-sm.is-valid,
+.form-control-sm.is-invalid {
+    background-image: none !important;
+}
