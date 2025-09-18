@@ -108,7 +108,7 @@ EMAIL_PASS=your_app_password
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/Sattyabirajdar/Hd_Notes.git
+   git clone https://github.com/rakesh-choudhary-01/hd_notes.git
    cd Hd_Notes
    ```
 
@@ -163,8 +163,8 @@ EMAIL_PASS=your_app_password
 
 ## 📬 Contact
 
-**Sattyabirajdar**
-[GitHub Profile →](https://github.com/Sattyabirajdar)
+**RakeshChoudhary**
+[GitHub Profile →](https://github.com/rakesh-choudhary-01)
 
 ---
 
